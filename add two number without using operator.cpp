@@ -11,6 +11,9 @@ public:
 Solution::Solution(){}
 int Solution::add(int x, int y)
 {
+    //first steps
+    cout << x+y << endl;
+    //Second steps
     while(y != 0)
     {
         int carry = x & y;
